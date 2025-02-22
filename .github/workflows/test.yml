@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: ???
-        run: ls
+        run: ls -A
 
       - name: Run a multi-line script
         run: git log --oneline
